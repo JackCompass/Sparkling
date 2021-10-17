@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Spark</title>
+	<link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+	<link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+	<div class='box'>
+		<div class='wave -one'></div>
+		<div class='wave -two'></div>
+		<div class='wave -three'></div>
+		<!-- <div class="weathercon"><i class='fas fa-cloud-rain' style='color: lightblue;'></i></div> -->
+		<div class="weathercon">
+			<img class="weather-img" src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-condition">
+		</div>
+		<div class="info">
+			<h2 class="location">Lucknow, In</h2>
+			<p class="date">MONDAY | SEP 12 | 12:34</p>
+			<h1 class="temp">0 &deg;C | 0&deg;F</h1>
+			<h2 class="condition">Sunny</h2>
+		</div>
+	</div>
+	<div class="footer">
+		<span>Enable location to see yours</span>
+		<lottie-player src="https://assets3.lottiefiles.com/private_files/lf30_eL0FHF.json" background="transparent"
+			speed="1" style="width: 50px; height: 50px;" loop autoplay></lottie-player>
+	</div>
+	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+	<script src="weather.js"></script>
+</body>
+
+</html>
